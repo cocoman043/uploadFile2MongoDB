@@ -9,7 +9,6 @@ This uses Multer to temporary store the file in the server, which it will send t
 
 - node
 - npm
-- bun (for running the client)
 
 ## Usage
 
@@ -23,8 +22,8 @@ npm i
  - Starting the web client:
 ```bash
 cd client
-bun install
-bun run dev
+npm i
+npm run dev
 ```
  - Sending a POST requst directly (Postman, Insomnia, curl, etc.):
 ```bash

@@ -11,14 +11,11 @@ npm i
 ```
 2. Create a `.env` file based on the `.env.example` file containing the keys for Cloudinary and MongoDB.
 3. Start the app with `npm start`.
-4. Send a POST requst to `api/upload` with a file attached.
-
-Insomnia:
+4. Send a POST requst to `api/upload` with a file attached like so:
 ```bash
 curl --request POST \
   --url http://localhost:5000/api/upload \
   --header 'Content-Type: multipart/form-data' \
-  --header 'User-Agent: insomnia/8.6.1' \
   --form pdf=@/absolute/path/to/file
 ```
 

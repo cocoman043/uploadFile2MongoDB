@@ -9,7 +9,7 @@ This uses Multer to temporary store the file in the server, which it will send t
 ```bash
 npm i
 ```
-2. Create a `.env` file containing the keys for Cloudinary and MongoDB.
+2. Create a `.env` file based on the `.env.example` file containing the keys for Cloudinary and MongoDB.
 3. Start the app with `npm start`.
 4. Send a POST requst to `api/upload` with a file attached.
 

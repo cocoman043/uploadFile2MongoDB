@@ -5,9 +5,9 @@ This uses Multer to temporary store the file in the server, which it will send t
 
 ## Dependencies
 
-node
-npm
-bun (for running the client)
+- node
+- npm
+- bun (for running the client)
 
 ## Usage
 
@@ -18,14 +18,13 @@ npm i
 2. Create a `.env` file based on the `.env.example` file containing the keys for Cloudinary and MongoDB.
 3. Start the app with `npm start`.
 4. Use the `/api/upload` endpoint by either:
- a. Starting the web client:
-
+ - Starting the web client:
 ```bash
 cd client
 bun install
 bun run dev
 ```
- b. Sending a POST requst to `api/upload` with a file attached like so:
+ - Sending a POST requst directly (Postman, Insomnia, curl, etc.):
 ```bash
 curl --request POST \
   --url http://localhost:5000/api/upload \

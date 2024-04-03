@@ -8,11 +8,16 @@ import cloudinary from 'cloudinary';
 import multer from 'multer';
 import mongoose from 'mongoose';
 import dotenv from 'dotenv';
+import cors from 'cors';
 
 dotenv.config();
 
 const app = express();
 const PORT = process.env.PORT || 5000;
+
+app.use(cors({
+  origin: "http://localhost:5173"
+}))
 
 mongoose.connect(process.env.MONGODB_URI, {
   dbName: 'cloudinary_files',

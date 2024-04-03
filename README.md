@@ -31,7 +31,6 @@ curl --request POST \
   --header 'Content-Type: multipart/form-data' \
   --form pdf=@/absolute/path/to/file
 ```
-```
 
 ## Reference
 

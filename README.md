@@ -19,7 +19,7 @@ curl --request POST \
   --url http://localhost:5000/api/upload \
   --header 'Content-Type: multipart/form-data' \
   --header 'User-Agent: insomnia/8.6.1' \
-  --form pdf=@/path/to/file
+  --form pdf=@/absolute/path/to/file
 ```
 
 ## Reference

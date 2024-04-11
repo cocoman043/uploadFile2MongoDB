@@ -3,7 +3,9 @@
 This program will set `/api/upload` to be a POST endpoint that handles file uploading to a Cloudinary server and storing the link to a MongoDB database.
 This uses Multer to temporary store the file in the server, which it will send to Cloudinary.
 
-![preview](preview.png)
+
+https://github.com/cocoman043/uploadFile2MongoDB/assets/129296131/be4f5500-3ab1-4115-a4c7-a2bc468815d9
+
 
 ## Dependencies
 
